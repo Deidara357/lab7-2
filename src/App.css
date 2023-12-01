@@ -1,0 +1,27 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-color: pink;
+  color: rgb(65, 165, 223);
+  font-size: 25px;
+}
+
+.goods-card {
+  text-align: center;
+  margin: 10px;
+  width: 45%;
+  box-sizing: border-box;
+}
+
+.goods-photo {
+  max-width: 300px;
+  max-height: 250px;
+}
+
+.price {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
